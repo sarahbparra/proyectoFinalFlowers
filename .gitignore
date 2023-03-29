@@ -31,4 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+<<<<<<< HEAD
+=======
+
+>>>>>>> rama1-Irene
 src/main/resources/application.properties
