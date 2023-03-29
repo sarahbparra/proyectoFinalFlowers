@@ -32,7 +32,10 @@ build/
 ### VS Code ###
 .vscode/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> rama1-Irene
+=======
+>>>>>>> origin/rama1Sarah
 src/main/resources/application.properties
