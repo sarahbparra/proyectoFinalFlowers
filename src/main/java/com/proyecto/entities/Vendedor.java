@@ -1,10 +1,6 @@
 package com.proyecto.entities;
-
-
-
 import java.io.Serializable;
 import java.util.List;
-
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -19,8 +15,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-//Los campos de Vendedor van a ser nombre, apellidos,dirección del local, telefono y correo
-
 @Table(name = "vendedores")
 @Data
 @NoArgsConstructor
@@ -34,6 +28,8 @@ public class Vendedor implements Serializable{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
+    //Los campos de Vendedor van a ser nombre, apellidos,dirección del local, telefono y correo
+    
     private int id;
     private String nombre;
     private String apellidos;
